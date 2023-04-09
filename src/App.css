@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+  color: #ffffff;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  /* Fonts */
+  --poppins: "Poppins", sans-serif;
+  --open-sans: "Open Sans", sans-serif;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  height: 100vh;
+}
+
+.main-container {
+  width: 100vw;
+}
+
+.hero-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  flex-direction: column;
+}
+
+.hero-title h1 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+.hero-title img {
+  height: 80px;
+}
+
+.traduction-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.change-language {
+  margin: 0 40px;
+}
+
+.change-icon {
+  width: 22px;
+  cursor: pointer;
+}
+
+.change-icon.disabled {
+  cursor: not-allowed; 
+}
+
+.select-language {
+  width: 300px;
+}
+
+.form-control:focus{
+  box-shadow: none!important;
+}
+
+@media (max-width: 770px) {
+  .traduction-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .change-language {
+    margin: 20px 0;
+  }
+
+  .select-language {
+    width: 350px;
+  }
+}
