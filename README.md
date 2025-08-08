@@ -1,7 +1,7 @@
 <p align="center" style="display:flex; justify-content:center; align-items: center;">
   <a href="http://nestjs.com/" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/539px-React-icon.svg.png" width="200" alt="React" /></a>
   <a href="http://nestjs.com/" style="margin: 30px;" target="blank"><img src="https://cdn.freebiesupply.com/logos/large/2x/ampersand-logo-black-and-white.png" width="30" alt="React" /></a>
-  <a href="https://openai.com/" target="blank"><img src="https://static-00.iconduck.com/assets.00/openai-icon-505x512-pr6amibw.png" width="200" alt="React" /></a>
+  <a href="https://openai.com/" target="blank"><img src="https://img.icons8.com/m_sharp/512/FFFFFF/chatgpt.png" width="200" alt="React" /></a>
 </p>
 
 # GTP Translate
